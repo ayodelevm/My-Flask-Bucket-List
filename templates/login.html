@@ -1,0 +1,19 @@
+
+
+{% extends "form.html" %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block purpose %}
+Log-in to your account
+{% endblock %}
+
+{% block submit_button %}
+  <div class="ui fluid large teal submit button">Login</div>
+{% endblock %}
+
+{% block alternative_link %}
+  New to us? &nbsp;<a href="{{ url_for('register') }}">Sign Up</a>
+{% endblock %}
